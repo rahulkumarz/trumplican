@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0;
     padding: 0;
 }
@@ -33,6 +33,7 @@ ul li a:hover {
 }
 
 .stroke {
+    margin-top: 5%;
     position: relative;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
@@ -40,6 +41,10 @@ ul li a:hover {
     letter-spacing: 7px;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 0.3px;
+}
+
+.down {
+    margin-bottom: -2%;
 }
 
 .text {
@@ -100,7 +105,7 @@ h2 {
 }
 
 .trump img {
-    width: 100px;
+    width: 150px;
     height: auto;
     margin-left: 80px;
 }
@@ -154,7 +159,7 @@ h2 {
 }
 
 .background {
-    background: linear-gradient(to bottom, #03050A 0%, rgba(3, 5, 10, 0) 100%), url('../Rectangle 37.png');
+    background-image: linear-gradient(180deg, #0e1833 0%, rgba(3, 5, 10, 0) 100%), url('../images/group50.png');
     /*transform: rotate(-180deg);*/
     background-position: center;
     width: 100%;
@@ -383,34 +388,34 @@ h4 {
 }
 
 .jane img {
-    width: 100px;
+    width: 150px;
     height: auto;
     margin-left: 10%;
 }
 
 .wade img {
-    width: 100px;
+    width: 150px;
     height: auto;
     margin-top: -38%;
     margin-left: 28%;
 }
 
 .cameron img {
-    width: 100px;
+    width: 150px;
     height: auto;
     margin-top: -41%;
     margin-left: 45%;
 }
 
 .brooklyn img {
-    width: 100px;
+    width: 150px;
     height: auto;
     margin-top: -44%;
     margin-left: 63%;
 }
 
 .albert img {
-    width: 100px;
+    width: 150px;
     height: auto;
     margin-top: -47%;
     margin-left: 80%;
@@ -433,7 +438,7 @@ h4 {
 .group26 img {
     width: 500px;
     height: auto;
-    margin-top: -78.5%;
+    margin-top: -78%;
     margin-bottom: 20%;
 }
 
@@ -441,263 +446,554 @@ h4 {
 /* Media Queries */
 
 
-/* Mobile Phones */
+/*Desktop and laptops*/
 
-@media (max-width: 767px) {
+
+/*Tablets and IPads*/
+
+@media (min-width:768px) and (max-width: 1024px) {
     .navbar-collapse .navbar-nav {
         text-align: center !important;
     }
-    .logo img {
-        width: 170px;
-        height: auto;
+    /* Mobile Phones */
+    @media (max-width: 767px) {
+        .navbar-collapse .navbar-nav {
+            text-align: center !important;
+        }
+        .logo img {
+            width: 170px;
+            height: auto;
+        }
+        .stroke {
+            width: 100%;
+            height: auto;
+            font-size: 10px;
+        }
+        .text {
+            margin-top: 15%;
+        }
+        .text1 {
+            width: 100%;
+            height: auto;
+            font-size: 15px;
+            font-weight: 700;
+            margin-top: -33%;
+        }
+        .image1 {
+            width: 140px;
+            height: auto;
+            margin-top: -60%;
+            margin-left: 35%;
+        }
+        .image2 {
+            width: 200px;
+            height: auto;
+            margin-top: -81%;
+            margin-left: 28%;
+        }
+        .para {
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        h2 {
+            font-size: 15px;
+        }
+        .para1 {
+            font-size: 15px;
+        }
+        .trump img {
+            width: 120px;
+            height: auto;
+            margin-left: 70px;
+        }
+        .trump1 img {
+            width: 150px;
+            height: auto;
+            margin-left: 270px;
+            margin-top: -22%;
+        }
+        .trump2 img {
+            width: 250px;
+            height: auto;
+            margin-left: 70px;
+            margin-top: -8%;
+        }
+        .text2 {
+            font-size: 10px;
+        }
+        .join img {
+            width: 100px;
+            height: auto;
+            margin-left: 55%;
+            margin-top: -20%;
+        }
+        .twitter img {
+            width: 100px;
+            height: auto;
+            margin-left: 80%;
+            margin-top: -30%;
+        }
+        .line {
+            margin-top: -11%;
+            width: 40%;
+            border: 1px;
+        }
+        .text3 {
+            font-size: 30px;
+        }
+        .trump3 img {
+            width: 280px;
+            height: auto;
+            margin-left: 22%;
+        }
+        .rectangle39 img {
+            width: 100%;
+            height: auto;
+            margin-top: 80%;
+            margin-left: 0%;
+        }
+        .trump4 img {
+            width: 200px;
+            height: auto;
+            margin-top: -49%;
+            margin-left: 2%;
+        }
+        h5 {
+            margin-top: -30%;
+            margin-left: 40%;
+            font-size: 20px;
+            text-align: center;
+        }
+        .text4 {
+            font-size: 11px;
+            margin-left: 50%;
+        }
+        .discord img {
+            width: 100px;
+            height: auto;
+            margin-left: 58%;
+            margin-top: -4%;
+        }
+        h3 {
+            font-size: 30px;
+        }
+        .lines img {
+            width: 250px;
+            height: auto;
+            margin-top: -8%;
+        }
+        .text5 {
+            font-size: 12px;
+            text-align: center;
+        }
+        .alphabate1 {
+            margin-left: 5%;
+        }
+        .alphabate2 {
+            margin-left: 5%;
+            margin-top: 15%;
+        }
+        .alphabate3 {
+            margin-left: 5%;
+        }
+        .text6 {
+            font-size: 12px;
+            margin-top: -16%;
+            margin-left: 22%;
+        }
+        .text7 {
+            font-size: 12px;
+            margin-top: -25%;
+            margin-left: 22%;
+        }
+        .text8 {
+            font-size: 12px;
+            margin-top: -16%;
+            margin-left: 22%;
+        }
+        .container {
+            width: 90%;
+            height: auto;
+        }
+        .text9 {
+            font-size: 30px;
+            text-align: center;
+        }
+        .text10 {
+            font-size: 8px;
+            margin-top: -5%;
+            margin-left: -5%;
+        }
+        .text11 {
+            font-size: 11px;
+            margin-top: -5%;
+            margin-left: -5%;
+        }
+        .image13 img {
+            width: 100px;
+            height: auto;
+            margin-left: 30%;
+            margin-top: 15%;
+        }
+        .image14 img {
+            width: 100px;
+            height: auto;
+            margin-left: 26%;
+            margin-top: -48%;
+        }
+        .group18 img {
+            width: 40px;
+            height: auto;
+            margin-top: -55%;
+            margin-left: 80%;
+        }
+        .future img {
+            width: 90px;
+            height: auto;
+            margin-top: 10%;
+            margin-left: 5%;
+        }
+        .text12 {
+            font-size: 11px;
+            margin-left: 27%;
+            margin-top: -10%;
+        }
+        h4 {
+            margin-top: 15%;
+            font-size: 35px;
+        }
+        .text13 {
+            font-size: 14px;
+        }
+        .jane img {
+            width: 100px;
+            height: auto;
+            margin-left: 5%;
+        }
+        .wade img {
+            width: 100px;
+            height: auto;
+            margin-top: -45%;
+            margin-left: 23%;
+        }
+        .cameron img {
+            width: 100px;
+            height: auto;
+            margin-top: -55%;
+            margin-left: 41%;
+        }
+        .brooklyn img {
+            width: 100px;
+            height: auto;
+            margin-top: -65%;
+            margin-left: 59%;
+        }
+        .albert img {
+            width: 100px;
+            height: auto;
+            margin-top: -75%;
+            margin-left: 77%;
+        }
+        .group25 img {
+            width: 90%;
+            height: auto;
+            margin-top: 5%;
+        }
+        .blue img {
+            width: 90px;
+            height: auto;
+            margin-top: -25%;
+            margin-left: 25%;
+        }
+        .group26 img {
+            width: 170px;
+            height: auto;
+            margin-top: -44.5%;
+            margin-left: 65%;
+            margin-bottom: 20%;
+        }
     }
-    .stroke {
-        width: 100%;
-        height: auto;
-        font-size: 10px;
+    @media(max-width: 468px) {
+        .navbar-collapse .navbar-nav {
+            text-align: start !important;
+        }
+        .logo img {
+            width: 140px;
+            height: auto;
+        }
+        .stroke {
+            width: 100%;
+            height: auto;
+            margin-top: 10%;
+            margin-bottom: 2%;
+            font-size: 12px;
+            letter-spacing: 0px;
+        }
+        .text {
+            margin-top: 15%;
+        }
+        .text1 {
+            width: 90%;
+            margin-left: 5%;
+            margin-top: -44%;
+            font-size: 20px;
+            letter-spacing: 0px;
+        }
+        .image1 {
+            width: 200px;
+            height: auto;
+            margin-left: 25%;
+            margin-top: -80%;
+        }
+        .image2 {
+            width: 270px;
+            height: auto;
+            margin-left: 18%;
+            margin-top: -106%;
+        }
+        .para {
+            margin-left: 0%;
+        }
+        .para1 {
+            margin-left: 5%;
+        }
+        .eth {
+            margin-left: -24%;
+        }
+        .mint {
+            margin-left: -60%;
+        }
+        .trump img {
+            width: 100px;
+            height: auto;
+            margin-left: 60px;
+        }
+        .trump1 img {
+            width: 130px;
+            height: auto;
+            margin-left: 210px;
+            margin-top: -22%;
+        }
+        .trump2 img {
+            width: 170px;
+            height: auto;
+            margin-left: 60px;
+            margin-top: -8%;
+        }
+        .text2 {
+            margin-left: 10%;
+            font-size: 10px;
+        }
+        .join img {
+            width: 100px;
+            height: auto;
+            margin-left: 10%;
+            margin-top: 1%;
+        }
+        .twitter img {
+            width: 100px;
+            height: auto;
+            margin-left: 40%;
+            margin-top: -14%;
+        }
+        .line {
+            margin-top: -9%;
+            width: 20%;
+            border: 1px;
+        }
+        .background {
+            width: 100%;
+            height: 650px;
+        }
+        .text3 {
+            font-size: 20px;
+            margin-top: 7%;
+            margin-bottom: 0%;
+        }
+        .para2 {
+            width: 100%;
+            margin-top: 25px;
+            margin-left: 0%;
+            margin-bottom: -2%;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 10px;
+            font-weight: 400;
+        }
+        .trump3 img {
+            width: 250px;
+            height: auto;
+            margin-left: 17%;
+        }
+        .rectangle39 img {
+            width: 100%;
+            height: auto;
+            margin-top: 20%;
+            margin-left: 0%;
+        }
+        .trump4 img {
+            width: 150px;
+            height: auto;
+            margin-top: -52%;
+            margin-left: 1%;
+        }
+        h5 {
+            margin-top: -32%;
+            margin-left: 25%;
+            font-size: 15px;
+            text-align: center;
+        }
+        .text4 {
+            font-size: 8px;
+            margin-left: 44%;
+        }
+        .discord img {
+            width: 100px;
+            height: auto;
+            margin-left: 50%;
+            margin-top: -4%;
+        }
+        h3 {
+            font-size: 23px;
+        }
+        .lines img {
+            width: 200px;
+            height: auto;
+            margin-top: -8%;
+        }
+        .text5 {
+            font-size: 11px;
+            text-align: center;
+        }
+        .alphabate1 {
+            margin-left: 5%;
+        }
+        .alphabate2 {
+            margin-left: 5%;
+            margin-top: 20%;
+        }
+        .alphabate3 {
+            margin-left: 5%;
+            margin-top: 5%;
+        }
+        .text6 {
+            font-size: 11px;
+            margin-top: -20%;
+            margin-left: 23%;
+        }
+        .text7 {
+            font-size: 11px;
+            margin-top: -35%;
+            margin-left: 23%;
+        }
+        .text8 {
+            font-size: 11px;
+            margin-top: -21%;
+            margin-left: 23%;
+        }
+        .container {
+            width: 90%;
+            height: auto;
+        }
+        .text9 {
+            margin-top: -5%;
+            font-size: 30px;
+            text-align: center;
+        }
+        .text10 {
+            font-size: 30px;
+            margin-top: -10%;
+            margin-left: -5%;
+        }
+        .text11 {
+            font-size: 12px;
+            margin-top: -4%;
+            margin-left: -5%;
+        }
+        .image13 img {
+            width: 140px;
+            height: auto;
+            margin-left: 28%;
+            margin-top: 12%;
+        }
+        .image14 img {
+            width: 140px;
+            height: auto;
+            margin-left: 24%;
+            margin-top: -55%;
+        }
+        .group18 img {
+            width: 40px;
+            height: auto;
+            margin-top: -65%;
+            margin-left: 80%;
+        }
+        .future img {
+            width: 90px;
+            height: auto;
+            margin-top: 12%;
+            margin-left: 2%;
+        }
+        .text12 {
+            font-size: 10px;
+            margin-left: 28%;
+            margin-top: -13%;
+        }
+        h4 {
+            margin-top: 15%;
+            font-size: 30px;
+        }
+        .text13 {
+            margin-top: 2%;
+            font-size: 12px;
+        }
+        .jane img {
+            width: 90px;
+            height: auto;
+            margin-left: 0%;
+        }
+        .wade img {
+            width: 90px;
+            height: auto;
+            margin-top: -48%;
+            margin-left: 19.5%;
+        }
+        .cameron img {
+            width: 90px;
+            height: auto;
+            margin-top: -60%;
+            margin-left: 39%;
+        }
+        .brooklyn img {
+            width: 90px;
+            height: auto;
+            margin-top: -72%;
+            margin-left: 58.5%;
+        }
+        .albert img {
+            width: 90px;
+            height: auto;
+            margin-top: -84%;
+            margin-left: 78%;
+        }
+        .group25 img {
+            width: 100%;
+            height: auto;
+            margin-top: -5%;
+            margin-left: 0%;
+        }
+        .blue img {
+            width: 90px;
+            height: auto;
+            margin-top: -25%;
+            margin-left: 19%;
+        }
+        .group26 img {
+            width: 160px;
+            height: auto;
+            margin-top: -50%;
+            margin-left: 60%;
+            margin-bottom: 20%;
+        }
     }
-    .text {
-        margin-top: 15%;
-    }
-    .text1 {
-        width: 100%;
-        height: auto;
-        font-size: 15px;
-        font-weight: 700;
-        margin-top: -33%;
-    }
-    .image1 {
-        width: 140px;
-        height: auto;
-        margin-top: -60%;
-        margin-left: 35%;
-    }
-    .image2 {
-        width: 200px;
-        height: auto;
-        margin-top: -81%;
-        margin-left: 28%;
-    }
-    .para {
-        width: 100%;
-        height: auto;
-        text-align: center;
-    }
-    h2 {
-        font-size: 15px;
-    }
-    .para1 {
-        font-size: 15px;
-    }
-    .trump img {
-        width: 120px;
-        height: auto;
-        margin-left: 70px;
-    }
-    .trump1 img {
-        width: 150px;
-        height: auto;
-        margin-left: 270px;
-        margin-top: -22%;
-    }
-    .trump2 img {
-        width: 250px;
-        height: auto;
-        margin-left: 70px;
-        margin-top: -8%;
-    }
-    .text2 {
-        font-size: 10px;
-    }
-    .join img {
-        width: 100px;
-        height: auto;
-        margin-left: 55%;
-        margin-top: -20%;
-    }
-    .twitter img {
-        width: 100px;
-        height: auto;
-        margin-left: 80%;
-        margin-top: -30%;
-    }
-    .line {
-        margin-top: -11%;
-        width: 40%;
-        border: 1px;
-    }
-    .text3 {
-        font-size: 30px;
-    }
-    .trump3 img {
-        width: 280px;
-        height: auto;
-        margin-left: 22%;
-    }
-    .rectangle39 img {
-        width: 100%;
-        height: auto;
-        margin-top: 80%;
-        margin-left: 0%;
-    }
-    .trump4 img {
-        width: 200px;
-        height: auto;
-        margin-top: -49%;
-        margin-left: 2%;
-    }
-    h5 {
-        margin-top: -30%;
-        margin-left: 40%;
-        font-size: 20px;
-        text-align: center;
-    }
-    .text4 {
-        font-size: 11px;
-        margin-left: 50%;
-    }
-    .discord img {
-        width: 100px;
-        height: auto;
-        margin-left: 58%;
-        margin-top: -4%;
-    }
-    h3 {
-        font-size: 30px;
-    }
-    .lines img {
-        width: 250px;
-        height: auto;
-        margin-top: -8%;
-    }
-    .text5 {
-        font-size: 12px;
-        text-align: center;
-    }
-    .alphabate1 {
-        margin-left: 5%;
-    }
-    .alphabate2 {
-        margin-left: 5%;
-        margin-top: 15%;
-    }
-    .alphabate3 {
-        margin-left: 5%;
-    }
-    .text6 {
-        font-size: 12px;
-        margin-top: -16%;
-        margin-left: 22%;
-    }
-    .text7 {
-        font-size: 12px;
-        margin-top: -25%;
-        margin-left: 22%;
-    }
-    .text8 {
-        font-size: 12px;
-        margin-top: -16%;
-        margin-left: 22%;
-    }
-    .container {
-        width: 90%;
-        height: auto;
-    }
-    .text9 {
-        font-size: 30px;
-        text-align: center;
-    }
-    .text10 {
-        font-size: 8px;
-        margin-top: -5%;
-        margin-left: -5%;
-    }
-    .text11 {
-        font-size: 11px;
-        margin-top: -5%;
-        margin-left: -5%;
-    }
-    .image13 img {
-        width: 100px;
-        height: auto;
-        margin-left: 30%;
-        margin-top: 15%;
-    }
-    .image14 img {
-        width: 100px;
-        height: auto;
-        margin-left: 26%;
-        margin-top: -48%;
-    }
-    .group18 img {
-        width: 40px;
-        height: auto;
-        margin-top: -55%;
-        margin-left: 80%;
-    }
-    .future img {
-        width: 90px;
-        height: auto;
-        margin-top: 10%;
-        margin-left: 5%;
-    }
-    .text12 {
-        font-size: 11px;
-        margin-left: 27%;
-        margin-top: -10%;
-    }
-    h4 {
-        margin-top: 15%;
-        font-size: 35px;
-    }
-    .text13 {
-        font-size: 14px;
-    }
-    .jane img {
-        width: 100px;
-        height: auto;
-        margin-left: 5%;
-    }
-    .wade img {
-        width: 100px;
-        height: auto;
-        margin-top: -45%;
-        margin-left: 23%;
-    }
-    .cameron img {
-        width: 100px;
-        height: auto;
-        margin-top: -55%;
-        margin-left: 41%;
-    }
-    .brooklyn img {
-        width: 100px;
-        height: auto;
-        margin-top: -65%;
-        margin-left: 59%;
-    }
-    .albert img {
-        width: 100px;
-        height: auto;
-        margin-top: -75%;
-        margin-left: 77%;
-    }
-    .group25 img {
-        width: 90%;
-        height: auto;
-        margin-top: 5%;
-    }
-    .blue img {
-        width: 90px;
-        height: auto;
-        margin-top: -25%;
-        margin-left: 25%;
-    }
-    .group26 img {
-        width: 170px;
-        height: auto;
-        margin-top: -44.5%;
-        margin-left: 65%;
-        margin-bottom: 20%;
-    }
-}
