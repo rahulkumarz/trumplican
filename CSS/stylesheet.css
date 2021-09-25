@@ -1,0 +1,703 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+}
+
+.logo img {
+    width: 300px;
+    height: auto;
+}
+
+ul li {
+    padding: 0px 10px;
+}
+
+ul li a {
+    font-size: 10px;
+}
+
+ul li a:hover {
+    background-color: #E3354F;
+    border-radius: 5px;
+    transition: 0.6 ease;
+}
+
+.connect {
+    width: 100px;
+    text-align: center;
+}
+
+.stroke {
+    position: relative;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    letter-spacing: 7px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.3px;
+}
+
+.text {
+    margin-top: 5%;
+}
+
+.image1 {
+    width: 210px;
+    height: auto;
+    margin-top: -25%;
+    margin-left: 40%;
+    overflow: hidden;
+}
+
+.image2 {
+    width: 325px;
+    height: auto;
+    margin-top: -35.5%;
+    margin-left: 36%;
+    overflow: hidden;
+}
+
+.text1 {
+    position: relative;
+    margin-top: -15%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 7px;
+}
+
+.para {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h2 {
+    margin-left: 5%;
+    color: #EAA587;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.para1 {
+    margin-left: 5%;
+    margin-top: -5px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.trump img {
+    width: 100px;
+    height: auto;
+    margin-left: 80px;
+}
+
+.trump1 img {
+    width: 200px;
+    height: auto;
+    margin-left: 360px;
+    margin-top: -22%;
+}
+
+.trump2 img {
+    width: 300px;
+    height: auto;
+    margin-left: 90px;
+    margin-top: -8%;
+}
+
+.text2 {
+    margin-left: 5%;
+    margin-top: 9%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.join img {
+    margin-top: -8%;
+    margin-left: 35%;
+    width: 170px;
+    height: auto;
+}
+
+.twitter img {
+    margin-left: 53%;
+    margin-top: -12%;
+    width: 170px;
+    height: auto;
+}
+
+.line {
+    width: 20%;
+    float: right;
+    margin-top: -6.5%;
+    margin-right: -1ch;
+    color: white;
+    border: 2px solid #FFFFFF;
+    opacity: unset;
+    transform: rotate(180deg);
+}
+
+.background {
+    background: linear-gradient(to bottom, #03050A 0%, rgba(3, 5, 10, 0) 100%), url('../Rectangle 37.png');
+    /*transform: rotate(-180deg);*/
+    background-position: center;
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+}
+
+.text3 {
+    margin-left: 5%;
+    margin-top: 20%;
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.para2 {
+    margin-left: 5%;
+    margin-top: 35px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.trump3 img {
+    width: 400px;
+    height: auto;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.rectangle39 img {
+    width: 1180px;
+    height: auto;
+    margin-left: 5%;
+}
+
+.trump4 img {
+    width: 460px;
+    height: auto;
+    margin-top: -74.5%;
+    margin-left: 20%;
+}
+
+h5 {
+    margin-left: 20%;
+    margin-top: -40%;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.text4 {
+    margin-left: 15%;
+    margin-top: 2%;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.discord img {
+    margin-top: 1%;
+    margin-left: 25%;
+    width: 200px;
+    height: auto;
+}
+
+h3 {
+    margin-top: 9%;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.lines img {
+    width: 350px;
+    margin-left: -8%;
+    margin-top: -3%;
+}
+
+.text5 {
+    margin-top: 1%;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.alphabate1 {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.alphabate2 {
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+.alphabate3 {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.text6 {
+    margin-top: -5%;
+    margin-left: 20%;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.text7 {
+    margin-top: -7%;
+    margin-left: 20%;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.text8 {
+    margin-top: -5%;
+    margin-left: 20%;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    position: relative;
+    width: 1180px;
+    height: 350px;
+    margin-left: 6%;
+    margin-top: 12%;
+    background: #5E2FB6;
+    border-radius: 40px;
+}
+
+.text9 {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.text10 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.text11 {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.image13 img {
+    width: 100px;
+    height: auto;
+    margin-left: 40%;
+    margin-top: 25%;
+}
+
+.image14 img {
+    width: 100px;
+    height: auto;
+    margin-left: 36%;
+    margin-top: -37%;
+}
+
+.group18 img {
+    width: 50px;
+    height: auto;
+    margin-top: -52%;
+    margin-left: 80%;
+}
+
+.future img {
+    width: 100px;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.text12 {
+    margin-left: 25%;
+    margin-top: -4.5%;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.ellipse img {
+    width: 100%;
+    height: auto;
+    margin-top: -35%;
+}
+
+h4 {
+    margin-top: 9%;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.text13 {
+    margin-top: 2%;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.group24 {
+    width: 90%;
+    height: auto;
+    margin-top: -40%;
+    margin-left: 5%;
+}
+
+.jane img {
+    width: 100px;
+    height: auto;
+    margin-left: 10%;
+}
+
+.wade img {
+    width: 100px;
+    height: auto;
+    margin-top: -38%;
+    margin-left: 28%;
+}
+
+.cameron img {
+    width: 100px;
+    height: auto;
+    margin-top: -41%;
+    margin-left: 45%;
+}
+
+.brooklyn img {
+    width: 100px;
+    height: auto;
+    margin-top: -44%;
+    margin-left: 63%;
+}
+
+.albert img {
+    width: 100px;
+    height: auto;
+    margin-top: -47%;
+    margin-left: 80%;
+}
+
+.group25 img {
+    width: 1180px;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.blue img {
+    width: 160px;
+    height: auto;
+    margin-top: -35%;
+    margin-left: 51%;
+}
+
+.group26 img {
+    width: 500px;
+    height: auto;
+    margin-top: -78.5%;
+    margin-bottom: 20%;
+}
+
+
+/* Media Queries */
+
+
+/* Mobile Phones */
+
+@media (max-width: 767px) {
+    .navbar-collapse .navbar-nav {
+        text-align: center !important;
+    }
+    .logo img {
+        width: 170px;
+        height: auto;
+    }
+    .stroke {
+        width: 100%;
+        height: auto;
+        font-size: 10px;
+    }
+    .text {
+        margin-top: 15%;
+    }
+    .text1 {
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: -33%;
+    }
+    .image1 {
+        width: 140px;
+        height: auto;
+        margin-top: -60%;
+        margin-left: 35%;
+    }
+    .image2 {
+        width: 200px;
+        height: auto;
+        margin-top: -81%;
+        margin-left: 28%;
+    }
+    .para {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    .para1 {
+        font-size: 15px;
+    }
+    .trump img {
+        width: 120px;
+        height: auto;
+        margin-left: 70px;
+    }
+    .trump1 img {
+        width: 150px;
+        height: auto;
+        margin-left: 270px;
+        margin-top: -22%;
+    }
+    .trump2 img {
+        width: 250px;
+        height: auto;
+        margin-left: 70px;
+        margin-top: -8%;
+    }
+    .text2 {
+        font-size: 10px;
+    }
+    .join img {
+        width: 100px;
+        height: auto;
+        margin-left: 55%;
+        margin-top: -20%;
+    }
+    .twitter img {
+        width: 100px;
+        height: auto;
+        margin-left: 80%;
+        margin-top: -30%;
+    }
+    .line {
+        margin-top: -11%;
+        width: 40%;
+        border: 1px;
+    }
+    .text3 {
+        font-size: 30px;
+    }
+    .trump3 img {
+        width: 280px;
+        height: auto;
+        margin-left: 22%;
+    }
+    .rectangle39 img {
+        width: 100%;
+        height: auto;
+        margin-top: 80%;
+        margin-left: 0%;
+    }
+    .trump4 img {
+        width: 200px;
+        height: auto;
+        margin-top: -49%;
+        margin-left: 2%;
+    }
+    h5 {
+        margin-top: -30%;
+        margin-left: 40%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .text4 {
+        font-size: 11px;
+        margin-left: 50%;
+    }
+    .discord img {
+        width: 100px;
+        height: auto;
+        margin-left: 58%;
+        margin-top: -4%;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .lines img {
+        width: 250px;
+        height: auto;
+        margin-top: -8%;
+    }
+    .text5 {
+        font-size: 12px;
+        text-align: center;
+    }
+    .alphabate1 {
+        margin-left: 5%;
+    }
+    .alphabate2 {
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    .alphabate3 {
+        margin-left: 5%;
+    }
+    .text6 {
+        font-size: 12px;
+        margin-top: -16%;
+        margin-left: 22%;
+    }
+    .text7 {
+        font-size: 12px;
+        margin-top: -25%;
+        margin-left: 22%;
+    }
+    .text8 {
+        font-size: 12px;
+        margin-top: -16%;
+        margin-left: 22%;
+    }
+    .container {
+        width: 90%;
+        height: auto;
+    }
+    .text9 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .text10 {
+        font-size: 8px;
+        margin-top: -5%;
+        margin-left: -5%;
+    }
+    .text11 {
+        font-size: 11px;
+        margin-top: -5%;
+        margin-left: -5%;
+    }
+    .image13 img {
+        width: 100px;
+        height: auto;
+        margin-left: 30%;
+        margin-top: 15%;
+    }
+    .image14 img {
+        width: 100px;
+        height: auto;
+        margin-left: 26%;
+        margin-top: -48%;
+    }
+    .group18 img {
+        width: 40px;
+        height: auto;
+        margin-top: -55%;
+        margin-left: 80%;
+    }
+    .future img {
+        width: 90px;
+        height: auto;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    .text12 {
+        font-size: 11px;
+        margin-left: 27%;
+        margin-top: -10%;
+    }
+    h4 {
+        margin-top: 15%;
+        font-size: 35px;
+    }
+    .text13 {
+        font-size: 14px;
+    }
+    .jane img {
+        width: 100px;
+        height: auto;
+        margin-left: 5%;
+    }
+    .wade img {
+        width: 100px;
+        height: auto;
+        margin-top: -45%;
+        margin-left: 23%;
+    }
+    .cameron img {
+        width: 100px;
+        height: auto;
+        margin-top: -55%;
+        margin-left: 41%;
+    }
+    .brooklyn img {
+        width: 100px;
+        height: auto;
+        margin-top: -65%;
+        margin-left: 59%;
+    }
+    .albert img {
+        width: 100px;
+        height: auto;
+        margin-top: -75%;
+        margin-left: 77%;
+    }
+    .group25 img {
+        width: 90%;
+        height: auto;
+        margin-top: 5%;
+    }
+    .blue img {
+        width: 90px;
+        height: auto;
+        margin-top: -25%;
+        margin-left: 25%;
+    }
+    .group26 img {
+        width: 170px;
+        height: auto;
+        margin-top: -44.5%;
+        margin-left: 65%;
+        margin-bottom: 20%;
+    }
+}
