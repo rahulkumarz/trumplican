@@ -762,12 +762,13 @@ h4 {
     }
     .para1 {
         margin-left: 5%;
+        font-size: 7px;
     }
     .eth {
         margin-left: -24%;
     }
     .mint {
-        margin-left: -60%;
+        margin-left: -40%;
     }
     .trump img {
         width: 100px;
